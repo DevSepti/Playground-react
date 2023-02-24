@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint:js": "eslint --ext .js,.jsx src --fix",
-    "lint:css": "stylelint src/**/*.{css,scss} --fix"
+    "lint:js": "eslint --ext .js,.jsx src",
+    "lint:css": "stylelint src/**/*.{css,scss}"
   },
   "dependencies": {
     "react": "^18.2.0",
