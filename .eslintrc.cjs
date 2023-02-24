@@ -16,7 +16,6 @@ module.exports = {
     'simple-import-sort',
   ],
   rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-newline': ['error', { prevent: true, allowMultilines: true }],
 
