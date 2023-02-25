@@ -3,7 +3,7 @@ import { useState } from 'react';
 import 'sanitize.css';
 import './styles.scss';
 
-function Index() {
+function App() {
   const [count, setCount] = useState(0);
 
   return (
@@ -21,4 +21,4 @@ function Index() {
   );
 }
 
-export default Index;
+export default App;

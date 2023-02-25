@@ -12,6 +12,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
+    'import',
     'react',
     'simple-import-sort',
   ],
