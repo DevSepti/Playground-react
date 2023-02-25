@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import 'sanitize.css';
-import './styles.css';
+import './styles.scss';
 
 function Index() {
   const [count, setCount] = useState(0);
