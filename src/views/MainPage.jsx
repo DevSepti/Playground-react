@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 const ROUTES = [
   { path: '/example', title: 'Example page' },
+  { path: 'meal', title: 'Meal page' },
 ];
 
 function MainPage() {
