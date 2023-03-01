@@ -19,6 +19,19 @@ function App() {
   //
   // }, []);
 
+  // eslint-disable-next-line consistent-return
+  const checkTags = () => {
+    if (tags === '') {
+      document.getElementById('tags').style.display = 'none';
+    } if (tags != null) {
+      return (
+        <p id="tags">
+          Tags:
+          {tags}
+        </p>
+      );
+    }
+  };
   return (
     <div className="container">
       <h1>Feeling hungry?</h1>
@@ -58,9 +71,8 @@ function App() {
               {area}
             </p>
 
-            <p>
-              Tags:
-              {tags}
+            <p className="tags" id="tags">
+              {checkTags()}
             </p>
           </div>
 
